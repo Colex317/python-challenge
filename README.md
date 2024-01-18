@@ -41,6 +41,7 @@ The final script should both print the analysis to the terminal and export a tex
 
 Citation:
 
+
 Hollis, Hunter (January 2024). Source Code provided for class activity.
 
 Python Write Text File (2023). Python Tutorial. Retrieved from https://www.pythontutorial.net/python-basics/python-write-text-file/
