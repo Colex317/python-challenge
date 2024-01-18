@@ -21,3 +21,9 @@ Create a Python script that analyzes the votes and calculates each of the follow
 
 
 The final script should both print the analysis to the terminal and export a text file with the results.
+
+
+
+Citation:
+Hollis, Hunter (January 2024). Source Code provided for class activity.
+Python Write Text File (2023). Python Tutorial. Retrieved from https://www.pythontutorial.net/python-basics/python-write-text-file/
