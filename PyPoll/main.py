@@ -33,15 +33,18 @@ with open(election_data) as csvfile:
             max_votes = candidates[candidate_name]
             winner = candidate_name
 
-    for candidate, votes in candidates.items():
-        percentage = round((votes / total_votes * 100), 3)
+            # for candidate, votes in candidates.items():
+            #     percentage = round((votes / total_votes * 100), 3)
 
 # Print the Election Results:
 print("Election Results:")
 print("-----------------------------------------------")
 print(f"Total Votes: {total_votes}")
 print("-----------------------------------------------")
-print(f"{candidate}: {percentage}% ({votes})")
+for candidate, votes in candidates.items():
+    percentage = round((votes / total_votes * 100), 3)
+    print(f"{candidate}: {percentage}% ({votes})")
+
 print("-----------------------------------------------")
 print(f"Winner: {winner}")
 
@@ -51,6 +54,10 @@ with open(election_results, 'w') as textfile:
     textfile.write("-----------------------------------------------\n")
     textfile.write(f"Total Votes: {total_votes}\n")
     textfile.write("-----------------------------------------------\n")
-    textfile.write(f"{candidate}: {percentage}% ({votes})\n")
+    
+    for candidate, votes in candidates.items():
+        percentage = round((votes / total_votes * 100), 3)
+        textfile.write(f"{candidate}: {percentage}% ({votes})\n")
+    
     textfile.write("-----------------------------------------------\n")
     textfile.write(f"Winner: {winner}\n")
