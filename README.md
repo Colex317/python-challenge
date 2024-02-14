@@ -42,7 +42,7 @@ The final script should both print the analysis to the terminal and export a tex
 
 
 
-**Citation:**
+**References:**
 
 
 Hollis, Hunter (January 2024). Source Code provided for class activity.
