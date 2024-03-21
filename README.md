@@ -1,7 +1,7 @@
-### Python Challenge:
+# Python Challenge:
 
 
-### PyBank Instructions
+## PyBank Instructions
 
 In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. The dataset is composed of two columns: "Date" and "Profit/Losses."
 
@@ -20,7 +20,7 @@ Create a Python script that analyzes the records to calculate each of the follow
 
 
 
-### PyPoll Instructions
+## PyPoll Instructions
 
 In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". 
 
